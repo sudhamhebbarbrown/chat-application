@@ -1,0 +1,67 @@
+/* App.css */
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.chat-list {
+  width: 200px;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.chat-item {
+  padding: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.chat-item.active {
+  background-color: #e0e0e0;
+}
+
+.chat-window {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.message-list {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.user-message, .ai-message {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.user-message {
+  background-color: #007bff;
+  color: white;
+  align-self: flex-end;
+}
+
+.ai-message {
+  background-color: #f0f0f0;
+}
+
+form {
+  display: flex;
+  margin-top: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
